@@ -1,10 +1,24 @@
-import "./App.css";
+import About from "./components/About";
+import CompanyLogos from "./components/CompanyLogos";
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Services from "./components/Services";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <>
-      <h1 className="text-3xl font-bold underline bg-red-50">Hello world!</h1>
-    </>
+    <div className="h-auto">
+      <Header />
+      <Hero />
+      <CompanyLogos />
+      <About />
+      <Features />
+      <Services />
+      <Pricing />
+      <Footer />
+    </div>
   );
 }
 
