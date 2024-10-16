@@ -1,9 +1,7 @@
-const Button = ({ className, href, children, onClick, px }) => {
-  const classes = `button inline-flex items-center justify-center h-11   ${
+const Button = ({ className, href, children, onClick }) => {
+  const classes = `button inline-flex items-center justify-center border rounded-2xl bg-color-4 py-3 font-bold text-color-1 ${
     className || ""
-  } border rounded-2xl bg-color-4 ${
-    px || "px-7"
-  } py-3 text-2xl font-bold text-color-1`;
+  }`;
 
   const renderButton = () => (
     <button className={classes} onClick={onClick}>

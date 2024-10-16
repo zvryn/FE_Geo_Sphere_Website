@@ -36,7 +36,7 @@ const Header = () => {
       <div className="flex items-center px-10 py-4 lg:px-7.5 xl:px-10 ">
         <a className=" w-[12rem] flex items-center" href="#hero">
           <img src={logo} width={40} height={40} alt="geoshere-logo" />
-          <h1 className="ml-4 font-bold text-2xl">GEOSPHERE</h1>
+          <h1 className="ml-4 font-bold text-2xl">Geosphere</h1>
         </a>
       </div>
 
@@ -45,7 +45,7 @@ const Header = () => {
           openNavigation ? "flex" : "hidden"
         } fixed top-[5rem] left-0 right-0 bottom-0 bg-color-1 lg:static lg:flex lg:mx-auto lg:bg-transparent`}
       >
-        <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row lg:-mr-24">
+        <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row lg:mr-24">
           {navigation.map((item) => (
             <a
               key={item.id}
@@ -72,8 +72,7 @@ const Header = () => {
       </Button>
 
       <Button
-        className="ml-auto mr-5 bg-transparent rounded-md  lg:hidden"
-        px="px-3"
+        className="ml-auto mr-5 bg-transparent rounded-md  lg:hidden px-3"
         onClick={toggleNavigation}
       >
         <MenuSvg openNavigation={openNavigation} />

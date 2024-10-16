@@ -11,6 +11,7 @@ function App() {
   return (
     <div className="h-auto">
       <Header />
+      <Hero />
     </div>
   );
 }
