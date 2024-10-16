@@ -65,14 +65,14 @@ const Header = () => {
       </nav>
 
       <Button
-        className="hidden lg:flex lg:mr-12 lg:px-5 lg:font-bold lg:text-xs lg:bg-transparent lg:border-color-4 lg:border-2 lg:text-color-4 hover:border-color-3 hover:text-color-3"
+        className="hidden lg:flex lg:mr-12 lg:px-5 lg:font-bold lg:text-xs lg:bg-transparent lg:border-color-4 lg:border-2 lg:text-color-4 hover:border-color-3 hover:bg-color-3/50"
         href="#login"
       >
         SIGN IN
       </Button>
 
       <Button
-        className="ml-auto mr-5 bg-transparent rounded-md  lg:hidden px-3"
+        className="ml-auto mr-5 bg-transparent rounded-md  lg:hidden px-3 hover:bg-color-3/50"
         onClick={toggleNavigation}
       >
         <MenuSvg openNavigation={openNavigation} />

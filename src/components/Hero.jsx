@@ -1,6 +1,5 @@
 import Button from "./Button";
 import globe1 from "../assets/globe1.png";
-
 const Hero = () => {
   return (
     <section className="h-screen flex flex-col items-center justify-center lg:flex-row">
@@ -9,7 +8,7 @@ const Hero = () => {
         <h1 className="text-2xl font-bold text-center  md:text-4xl lg:text-left lg:text-4xl lg:px-0 ">
           Explore the Earth Wisely with Geosphere
         </h1>
-        <p className="text-sm font-light text-center mt-3 lg:text-left ">
+        <p className="text-center mt-3 lg:text-left font-light text-sm">
           Elevate your exploration with Geosphere. The ultimate platform for
           geological insights and data visualization.
         </p>

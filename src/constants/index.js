@@ -32,3 +32,26 @@ export const navigation = [
     onlyMobile: true,
   },
 ];
+
+export const companyLogos = [
+  {
+    id: "0",
+    url: "../assets/customers/chevron.png",
+  },
+  {
+    id: "1",
+    url: "../assets/customers/ptt.png",
+  },
+  {
+    id: "2",
+    url: "../assets/customers/scg.png",
+  },
+  {
+    id: "3",
+    url: "../assets/customers/shell.png",
+  },
+  {
+    id: "4",
+    url: "../assets/customers/tesla.png",
+  },
+];

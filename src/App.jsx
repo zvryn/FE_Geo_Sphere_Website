@@ -9,9 +9,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="h-auto">
+    <div className="h-full">
       <Header />
       <Hero />
+      <CompanyLogos className="hidden lg:flex lg:flex-col h-auto" />
     </div>
   );
 }
