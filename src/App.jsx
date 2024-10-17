@@ -13,6 +13,7 @@ function App() {
       <Header />
       <Hero />
       <CompanyLogos className="hidden lg:flex lg:flex-col h-auto" />
+      <About />
     </div>
   );
 }
