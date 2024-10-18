@@ -12,9 +12,10 @@ function App() {
     <div className="h-full">
       <Header />
       <Hero />
-      <CompanyLogos className="hidden lg:flex lg:flex-col h-auto" />
+      <CompanyLogos />
       <About />
       <Features />
+      <Services />
     </div>
   );
 }

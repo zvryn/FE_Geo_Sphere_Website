@@ -88,3 +88,9 @@ export const benefits = [
     text: "Generate professional-grade field reports with data visualization, site analysis, and customizable templates.",
   },
 ];
+
+export const geoSphereServices = [
+  "Accurate Assessment",
+  "Interactive Exploration",
+  "Seamless Integration",
+];

@@ -4,9 +4,9 @@ import scg from "../assets/customers/scg.png";
 import shell from "../assets/customers/shell.png";
 import tesla from "../assets/customers/tesla.png";
 
-const CompanyLogos = ({ className }) => {
+const CompanyLogos = () => {
   return (
-    <div className={className}>
+    <div className="hidden lg:flex lg:flex-col h-auto">
       <h5 className="mb-10 text-center font-light">
         HELPING PEOPLE EXPLORE THE EARTH AT
       </h5>
