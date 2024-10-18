@@ -3,8 +3,8 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center mb-10 md:px-28 lg:flex lg:flex-row lg:mt-14 ">
-      <div className="p-8 lg:-ml-7 ">
+    <div className="flex flex-col items-center justify-center mb-10 md:px-12 lg:flex lg:flex-row lg:mt-14 ">
+      <div className="p-8 lg:-ml-7">
         <h1 className=" flex  justify-center text-4xl lg:flex lg:justify-start">
           About
         </h1>
@@ -43,7 +43,7 @@ const About = () => {
       <img
         src={globe2}
         alt="globe2"
-        className="w-[325px] border-1 rounded-lg border-color-4 md:w-[500px] lg:w-[600px]"
+        className="w-[325px] border-1 rounded-lg border-color-4 md:w-[600px] lg:w-[600px]"
       />
     </div>
   );

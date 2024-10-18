@@ -94,3 +94,30 @@ export const geoSphereServices = [
   "Interactive Exploration",
   "Seamless Integration",
 ];
+
+export const pricing = [
+  {
+    id: "0",
+    title: "Basic",
+    price: "99.9",
+    text1: "Interactive Geological Map",
+    text2: "3D Terrain Visualization",
+    text3: "Online Support",
+  },
+  {
+    id: "1",
+    title: "Premium",
+    price: "159.9",
+    text1: "Get All Features",
+    text2: "Analytics Dashboard",
+    text3: "Priority Support Consult",
+  },
+  {
+    id: "2",
+    title: "Enterprise",
+    price: "",
+    text1: "Get All Features",
+    text2: "Analytics Dashboard",
+    text3: "Priority Support Consult",
+  },
+];

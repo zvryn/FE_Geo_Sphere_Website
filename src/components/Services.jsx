@@ -90,7 +90,7 @@ const Services = () => {
         </div>
       </div>
       <div className="hidden md:flex justify-center p-16">
-        <img src={globe3} alt="globe3" className=" w-full object-contain " />
+        <img src={globe3} alt="globe3" className=" w-3/4 object-contain " />
       </div>
     </div>
   );
