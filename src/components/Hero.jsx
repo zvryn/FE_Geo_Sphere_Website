@@ -1,5 +1,6 @@
 import Button from "./Button";
 import globe1 from "../assets/globe1.png";
+
 const Hero = () => {
   return (
     <section className="h-screen flex flex-col items-center justify-center lg:flex-row">

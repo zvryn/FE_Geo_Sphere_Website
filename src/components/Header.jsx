@@ -6,6 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
+import { Link } from "react-scroll"; // Import Link from react-scroll
 
 const Header = () => {
   const pathname = useLocation();
@@ -35,7 +36,7 @@ const Header = () => {
     >
       <div className="flex items-center px-10 py-4 lg:px-7.5 xl:px-10 ">
         <a className=" w-[12rem] flex items-center" href="#hero">
-          <img src={logo} width={40} height={40} alt="geoshere-logo" />
+          <img src={logo} width={40} height={40} alt="geosphere-logo" />
           <h1 className="ml-4 font-bold text-2xl">Geosphere</h1>
         </a>
       </div>
@@ -47,18 +48,20 @@ const Header = () => {
       >
         <div className="relative z-2 flex flex-col items-center justify-center m-auto lg:flex-row lg:mr-24">
           {navigation.map((item) => (
-            <a
+            <Link // Change from <a> to <Link>
               key={item.id}
-              href={item.url}
-              onClick={handleClick}
-              className={`block relative text-2xl uppercase hover:text-color-3 ${
+              to={item.url} // Use 'to' prop for smooth scrolling
+              smooth={true} // Enable smooth scrolling
+              duration={200} // Duration for scrolling
+              onClick={handleClick} // Keep your click handler
+              className={`block relative text-2xl uppercase hover:text-color-3 cursor-pointer ${
                 item.onlyMobile ? "lg:hidden" : ""
-              } px-12 py-6 md:py-8 md:px-7 lg:-mr-0.25 lg:text-xs lg:font-semibold  ${
+              } px-12 py-6 md:py-8 md:px-7 lg:-mr-0.25 lg:text-xs lg:font-semibold ${
                 item.url === pathname.hash ? "z-2" : ""
               } `}
             >
               {item.title}
-            </a>
+            </Link>
           ))}
         </div>
         <HamburgerMenu />
@@ -72,7 +75,7 @@ const Header = () => {
       </Button>
 
       <Button
-        className="ml-auto mr-5 bg-transparent rounded-md  lg:hidden px-3 hover:bg-color-3/50"
+        className="ml-auto mr-5 bg-transparent rounded-md lg:hidden px-3 hover:bg-color-3/50"
         onClick={toggleNavigation}
       >
         <MenuSvg openNavigation={openNavigation} />

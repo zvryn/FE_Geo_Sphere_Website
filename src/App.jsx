@@ -11,12 +11,24 @@ function App() {
   return (
     <div className="h-full">
       <Header />
-      <Hero />
-      <CompanyLogos />
-      <About />
-      <Features />
-      <Services />
-      <Pricing />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="companylogos">
+        <CompanyLogos />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="features">
+        <Features />
+      </section>
+      <section id="services">
+        <Services />
+      </section>
+      <section id="pricing">
+        <Pricing />
+      </section>
       <Footer />
     </div>
   );
