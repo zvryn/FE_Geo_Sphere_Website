@@ -8,7 +8,7 @@ const About = () => {
         <h1 className=" flex  justify-center text-4xl lg:flex lg:justify-start">
           About
         </h1>
-        <p className="lg:pr-7 lg:w-[35rem] ">
+        <p className="lg:pr-7 lg:w-[35rem] font-light ">
           <br />
           At GeoSphere, we are passionate about unlocking the hidden wonders of
           the Earth.
@@ -24,7 +24,7 @@ const About = () => {
           activity to mineral deposits.
           <br />
           <br />
-          Whether you're a geologist, environmental scientist, or just curious
+          Whether you are a geologist, environmental scientist, or just curious
           about the natural world, GeoSphere offers the tools and resources you
           need to make informed decisions and discoveries.
           <br />

@@ -14,6 +14,7 @@ function App() {
       <Hero />
       <CompanyLogos className="hidden lg:flex lg:flex-col h-auto" />
       <About />
+      <Features />
     </div>
   );
 }
