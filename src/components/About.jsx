@@ -36,7 +36,10 @@ const About = () => {
           Join us on this journey of exploration and take your understanding of
           the Earth to the next level!
         </p>
-        <Button className="hidden lg:flex lg:mt-5  lg:px-5 rounded-md hover:bg-color-3 ">
+        <Button
+          className="hidden lg:flex lg:mt-5  lg:px-5 rounded-md hover:bg-color-3 "
+          href="#pricing"
+        >
           Get Started
         </Button>
       </div>
