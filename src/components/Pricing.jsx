@@ -3,7 +3,7 @@ import check from "../assets/checkmark.png";
 
 const Pricing = () => {
   return (
-    <div>
+    <div id="pricing">
       <div className="mt-10 ">
         <h1 className="flex justify-center text-4xl px-24 text-center ">
           Pay once, use forever

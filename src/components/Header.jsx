@@ -6,7 +6,7 @@ import HamburgerMenu from "./HamburgerMenu";
 import { navigation } from "../constants";
 import Button from "./Button";
 import MenuSvg from "../assets/svg/MenuSvg";
-import { Link } from "react-scroll"; // Import Link from react-scroll
+import { Link } from "react-scroll";
 
 const Header = () => {
   const pathname = useLocation();
@@ -14,9 +14,9 @@ const Header = () => {
 
   const toggleNavigation = () => {
     if (openNavigation) {
-      enablePageScroll(); // Enable scrolling when the menu is closed
+      enablePageScroll();
     } else {
-      disablePageScroll(); // Disable scrolling when the menu is open
+      disablePageScroll();
     }
     setOpenNavigation(!openNavigation);
   };
@@ -24,7 +24,7 @@ const Header = () => {
   const handleClick = () => {
     if (!openNavigation) return;
 
-    enablePageScroll(); // Enable scrolling when a link is clicked
+    enablePageScroll();
     setOpenNavigation(false);
   };
 

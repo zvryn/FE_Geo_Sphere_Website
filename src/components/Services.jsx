@@ -7,7 +7,7 @@ import { geoSphereServices } from "../constants";
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       <div>
         <h1 className="flex justify-center text-4xl px-10 text-center ">
           Geosphere made for explorers.

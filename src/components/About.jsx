@@ -3,7 +3,10 @@ import Button from "./Button";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center justify-center mb-10 md:px-12 lg:flex lg:flex-row lg:mt-14 ">
+    <div
+      className="flex flex-col items-center justify-center mb-10 md:px-12 lg:flex lg:flex-row lg:mt-14 "
+      id="about"
+    >
       <div className="p-8 lg:-ml-7">
         <h1 className=" flex  justify-center text-4xl lg:flex lg:justify-start">
           About

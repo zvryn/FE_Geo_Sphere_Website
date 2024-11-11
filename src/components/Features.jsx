@@ -3,7 +3,7 @@ import globe4 from "../assets/globe4.png";
 
 const Features = () => {
   return (
-    <div>
+    <div id="features">
       <h1 className="flex justify-center text-4xl px-5 text-center ">
         Explore Smarter,
         <br />

@@ -3,7 +3,10 @@ import globe1 from "../assets/globe1.png";
 
 const Hero = () => {
   return (
-    <section className="h-screen flex flex-col items-center justify-center lg:flex-row">
+    <section
+      className="h-screen flex flex-col items-center justify-center lg:flex-row "
+      id="hero"
+    >
       {/* Left Side - Content */}
       <div className="flex flex-col items-center justify-center px-10 md:px-36 lg:w-1/2 lg:items-start lg:px-28 ">
         <h1 className="text-2xl font-bold text-center  md:text-4xl lg:text-left lg:text-4xl lg:px-0 ">
